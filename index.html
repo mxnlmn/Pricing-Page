@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jadwalin</title>
+    <link rel="icon" type = "image/x-icon" href="images/favicon.svg">
+    <link rel="stylesheet" href="style/style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="images/hamburger-menu.png" id = "hamburger-menu" alt="menu">
+        <a href="#"><img src="images/logo.svg" alt="logo"></a>
+        <button id = "join-now-btn" class="pink-button"><a href="#">Join now</a></button>
+    </header>
+    <section class = "hero">
+        <div class = "hero__description">
+            <h1 class="hero__main-heading">Plans & Pricing</h1>
+            <p class="hero__body-text">Whether your time-saving automation needs are large or small, we’re here to help you scale.</p>
+        </div>
+        <div class="switch-button">
+            <input id="toggle-on" class="toggle toggle-left" name="toggle" value="false" type="radio" checked>
+            <label for="toggle-on" class="btn">MONTHLY</label>
+            <input id="toggle-off" class="toggle toggle-right" name="toggle" value="true" type="radio">
+            <label for="toggle-off" class="btn">YEARLY</label>
+        </div>
+    </section>
+    <section class="plans">
+            <article class="plans__description">
+                <div class="plans__features">
+                    <div class="plans__price">
+                        <h2 class="price">19</h2>
+                        <p>/month</p>
+                    </div>
+                    <h2 class="plans__heading">Starter</h2>
+                    <p class="plans__body-text">Unleash the power of automation.</p>
+                    <ul class="plans__list">
+                        <li class = 'plans__list-item'>Multi-step Zaps</li>
+                        <li class = 'plans__list-item'>3 Premium Apps</li>
+                        <li class = 'plans__list-item'>2 Users team</li>
+                    </ul>
+                </div>
+                <button class="purple-btn plans__btn">Choose plan</button>
+            </article>
+            <article class="plans__description">
+                <div class="plans__features">
+                    <div class="plans__price">
+                        <h2 class="price">54</h2>
+                        <p>/month</p>
+                    </div>
+                    <h2 class="plans__heading">Professional</h2>
+                    <p class="plans__body-text">Advanced tools to take your work to the next level.</p>
+                    <ul class="plans__list">
+                        <li class = 'plans__list-item'>Multi-step Zaps</li>
+                        <li class = 'plans__list-item'>Unlimited Premium Apps</li>
+                        <li class = 'plans__list-item'>50 Users team</li>
+                        <li class = 'plans__list-item'>Shared Workspace</li>
+                    </ul>
+                </div>
+                <button class="purple-btn plans__btn">Choose plan</button>
+            </article>
+            <article class="plans__description plans__most-popular">
+                <div class="plans__features ">
+                    <div class="plans__price">
+                        <h2 class="price">89</h2>
+                        <p>/month</p>
+                    </div>
+                    <h2 class="plans__heading">Company</h2>
+                    <p class="plans__body-text">Automation plus enterprise-grade features.</p>
+                    <ul class="plans__list">
+                        <li class = 'plans__list-item'>Multi-step Zap</li>
+                        <li class = 'plans__list-item'>Unlimited Premium Apps</li>
+                        <li class = 'plans__list-item'>Unlimited Users Team</li>
+                        <li class = 'plans__list-item'>Advanced Admin</li>
+                        <li class = 'plans__list-item'>Custom Data Retention</li>
+                    </ul>
+                </div>
+                <button class="purple-btn plans__btn">Choose plan</button>    
+            </article>
+    </section>
+</body>
+</html>
